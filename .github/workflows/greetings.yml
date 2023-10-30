@@ -1,4 +1,4 @@
-name: Greetings
+name: Create_greetings
 
 on: 
   push:
