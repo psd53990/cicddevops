@@ -1,0 +1,16 @@
+name: Greetings
+
+on: 
+  push:
+    branches: ["main"]
+
+jobs:
+  myfirstjobs:
+    runs-on: Ubuntu-latest
+
+    steps:
+    - uses: actions/ceckout@v3
+    - name: List all files and folder
+      run: ls -lrt
+    - name: Run echo command
+      run: echo "Testing Github runner"
