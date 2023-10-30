@@ -9,7 +9,7 @@ jobs:
     runs-on: Ubuntu-latest
 
     steps:
-    - uses: actions/ceckout@v3
+    - uses: actions/checkout@v3
     - name: List all files and folder
       run: ls -lrt
     - name: Run echo command
