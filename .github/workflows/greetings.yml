@@ -2,7 +2,7 @@ name: Create_greetings
 
 on: 
   push:
-    branches: ["main"]
+    branches: ["main2"]
 
 jobs:
   myfirstjobs:
